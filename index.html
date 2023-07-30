@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+<head/>
+<body>
+<header>
+    <h1 id="title">响应式表单设计</h1>
+    <p id="description">这是我用于完成html认证的项目</p>
+</header>
+<main>
+    <form id="survey-form">
+    <label id="name-label" for="name">请输入你的名字：<input type="text" id="name" required placeholder="mingzi" /></label>
+    <label id="email-label" for="email">请输入你的邮箱：<input placeholder="mingzi@163.com" type="email" id="email" required /></label>
+    <label id="number-label" for="number">请输入合适的数字：<input placeholder="1~100" type="number" id="number" min="1" max="100" required /></label>
+    <label>
+        <select value="checkbox" id="dropdown">
+        <option>111</option>
+        <option>222</option>
+        <option>333</option>
+        </select>
+    </label>
+    <label>
+        <input type="checkbox" value="checkbox" />nihao
+        <input type="checkbox" value="checkbox" />nibuhao
+    </label>
+    <label>111111
+        <input value="radio" name="radio" type="radio">
+    </label>
+    <label>222222
+        <input value="radio" name="radio" type="radio">
+    </label>
+    <label>这是一个评论：<textarea type="textarea" rows="3" cols="30" /></textarea>
+    </form>
+    <input id="submit" type="submit" />
+</main>
+<footer>
+</footer>
+</body>
+</html>
