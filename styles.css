@@ -1,16 +1,49 @@
-label {
-    display: block;
-    margin: 10px auto;
-    margin-left: 10%;
-    text-align: left;
+/* head */
+.head-div {
+    margin: 0 auto 10px auto;
+    background-color: #bfae40;
+    padding-top:10px;
+    padding-bottom:30px;
+    text-align: center;
+}
+.avatar-img {
+    width:10%;
+    height:auto;
 }
 
-h1,p {
-margin: 0 auto;
-text-align: center;
+/* body */
+.body-div {
+    max-width:800px;
+    margin:auto;
+    background-color:#f4f0dd;
+    padding:10px 5% 10px 5%;
 }
 
-form {
-text-align: left;
-width: 100%
+/* foot */
+.footer-div {
+    margin: 10px auto 0px auto;
+    background-color: #bfae40;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align: center;
 }
+a {
+    color:#0f0e05;
+}
+a:visited {
+    color:#0f0e05;
+}
+
+/* color:  
+Your selected colors:
+
+    Text: #0f0e05 (RGB: 15, 14, 5)
+    Background: #f4f0dd (RGB: 244, 240, 221)
+    Primary: #e6dfb3 (RGB: 230, 223, 179)
+    Secondary: #f2efd9 (RGB: 242, 239, 217)
+    Accent: #bfae40 (RGB: 191, 174, 64)
+
+Realtime Colors link for selected colors: https://realtimecolors.com/?colors=0f0e05-f4f0dd-e6dfb3-f2efd9-bfae40
+
+Thanks for using RealtimeColors.com!
+*/
